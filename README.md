@@ -18,11 +18,7 @@ import React from 'react';
 import { Wave } from 'react-animted-text';
 
 const ExampleOne = () => (
-  <Wave
-    text="EXAMPLE TEXT"
-    waveIteration="infinite"
-    effect="stretch"
-    effectChange={1.5}
+  <Wave text="EXAMPLE TEXT" effect="stretch" effectChange={2.0} />
 );
 ```
 
@@ -31,10 +27,7 @@ import React from 'react';
 import { Random } from 'react-animted-text';
 
 const ExampleTwo = () => (
-  <Random
-    text="EXAMPLE TEXT"
-    effect="jump"
-    effectChange={2.0}
+  <Random text="EXAMPLE TEXT" effect="jump" effectChange={1.5} />
 );
 ```
 
