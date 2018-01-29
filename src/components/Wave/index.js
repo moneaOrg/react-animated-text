@@ -22,7 +22,7 @@ const propTypes = {
 const defaultProps = {
   speed: 10,
   direction: 'right',
-  iteration: 'infinite',
+  iterations: 'infinite',
   delay: 0,
   paused: false,
   effect: 'jump',

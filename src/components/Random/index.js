@@ -19,7 +19,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  iterations: 99999,
+  iterations: 'infinite',
   effect: 'jump',
   effectDelay: 0.5,
   effectDuration: 0.3,
