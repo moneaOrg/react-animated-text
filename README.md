@@ -8,7 +8,7 @@ npm install --save react-animated-text
 
 ## Documentation
 
-### Examples coming soon!
+**[See Live Examples on CodeSandbox](https://codesandbox.io/s/jz6pvqlz85)**
 
 react-animated-text provides a quick way to add animated words, or short phrases, to a page. For example, you could add the animated text "LOADING" as a loading indicator, or make small pieces of data appear once loaded, or a link "go away" after someone clicks on it.
 
