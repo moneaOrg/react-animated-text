@@ -30,6 +30,8 @@ class AnimatedLetter extends React.Component {
   componentDidMount() {
     if (!this.state.parentPaused) {
       this.componentReadyToAnimate();
+    } else {
+      this.pause();
     }
   }
 
