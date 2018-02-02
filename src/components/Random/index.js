@@ -83,7 +83,7 @@ class Random extends React.Component {
             nextMS: () => this.nextMS(),
             paused: this.props.paused,
             manualIterations:
-              this.props.iterations === 'infinte'
+              this.props.iterations === 'infinite'
                 ? 99999
                 : this.props.iterations
           };
