@@ -5,8 +5,9 @@
   "main": "build/index.js",
   "repository": "GregX999/react-animated-text",
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react-timeout": "^1.0.1",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react-timeout": "^1.1.2",
     "webpack": "^2.6.1"
   },
   "scripts": {
@@ -20,11 +21,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1",
-    "react": "^15.5.4"
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.8.1"
   }
 }
