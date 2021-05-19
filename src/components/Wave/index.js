@@ -106,7 +106,7 @@ class Wave extends React.Component {
 
           const wrapperStyles = {
             display: 'inline-block',
-            width: char == ' ' ? '0.5em' : 'auto'
+            width: char == ' ' ? '0.2em' : 'auto'
           };
 
           const animatedLetterProps = {
